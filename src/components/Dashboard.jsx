@@ -46,6 +46,7 @@ const Dashboard = () => {
       }
     } catch (error) {
       console.error('Error fetching dashboard data:', error);
+      console.log("heyyyyyy")
       setError('Failed to load dashboard data. Please try again.');
     } finally {
       setLoading(false);
